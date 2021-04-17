@@ -75,7 +75,7 @@ foreach ($locales as $locale) {
                 mkdir($folder . '/' . Text::safeString($locale).'/'.Text::safeString($book_names[$current_index]).'/'.  $chapter_counter  .'/' . $verse_counter);
 
                 $data = "---\ntitle: Verse {$verse_counter}\ntemplate: verse\n---\n{$verse->Verse}";
-                file_put_contents('FLEXTYPE/'.Text::safeString($locale).'/'.Text::safeString($book_names[$current_index]).'/'.  $chapter_counter  .'/' . $verse_counter . '/entry.md', $data);
+                file_put_contents($folder . '/' .Text::safeString($locale).'/'.Text::safeString($book_names[$current_index]).'/'.  $chapter_counter  .'/' . $verse_counter . '/entry.md', $data);
 
             }
 

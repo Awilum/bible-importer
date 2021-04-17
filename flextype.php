@@ -5,7 +5,6 @@ define('ROOT_DIR', str_replace(DIRECTORY_SEPARATOR, '/', getcwd()));
 include __DIR__ . '/config/config.php';
 include __DIR__ . '/libs/Text.php';
 
-echo count($book_names);
 $page_total = 0;
 $page = 0;
 $index = 0;

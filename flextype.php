@@ -81,10 +81,10 @@ foreach ($locales as $locale) {
 
         }
     }
-echo "\n\n\n\n======================== \n\nPages: ". $page . "\n\n========================\n\n\n\n";
+echo "\n\n======================== \n\nPages: ". $page . "\n\n========================\n\n";
 
 }
 
-echo "\n\n\n\n======================== \n\nPages Total: ". $page_total . "\n\n========================\n\n\n\n";
+echo "\n\n======================== \n\nPages Total: ". $page_total . "\n\n========================\n\n";
 
 echo "\n\n";

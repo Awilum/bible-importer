@@ -5,7 +5,6 @@ define('ROOT_DIR', str_replace(DIRECTORY_SEPARATOR, '/', getcwd()));
 include __DIR__ . '/config/config.php';
 include __DIR__ . '/libs/Text.php';
 
-echo count($book_names);
 $page_total = 0;
 $page = 0;
 $index = 0;
@@ -80,10 +79,10 @@ foreach ($locales as $locale) {
 
         }
     }
-echo "\n\n\n\n======================== \n\nPages: ". $page . "\n\n========================\n\n\n\n";
+echo "\n\n======================== \n\nPages: ". $page . "\n\n========================\n\n";
 
 }
 
-echo "\n\n\n\n======================== \n\nPages Total: ". $page_total . "\n\n========================\n\n\n\n";
+echo "\n\n======================== \n\nPages Total: ". $page_total . "\n\n========================\n\n";
 
 echo "\n\n";

@@ -5,6 +5,9 @@ vendor/
 
 # Specific
 bible/
+flextype/
+grav/
+bludit/
 
 # OS Generated
 .DS_Store*
